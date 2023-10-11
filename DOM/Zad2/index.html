@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .title{
+            text-align: center;
+        }
+
+        .kontener{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            background: beige;
+            margin-top: 40px;
+        }
+
+        .obiekt{
+            position: relative;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+            background: purple;
+            border: 3px solid crimson;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Obliczanie pola kwadratu: </h1>
+
+    <label>Podaj bok a: </label>
+    <input name="a" placeholder="Wprowadź długość" required type="number" step="0.01">
+
+    <br />
+    <br />
+
+    <button>Oblicz obwód!</button>
+
+    <br />
+
+    <h2>Obwód kwadratu wynosi: <span class="obwod"></span></h2>
+    <h2>Pole kwadratu wynosi: <span class="pole"></span></h2>
+
+
+    <div class="kontener">
+    </div>
+
+    <script src="zadanie.js"></script>
+</body>
+</html>
