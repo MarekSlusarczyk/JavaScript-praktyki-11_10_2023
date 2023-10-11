@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return '';
         } else {
             let temperaturaWCelsjuszach = (value - 32) * (5/9);
-            return temperaturaWCelsjuszach;
+            return temperaturaWCelsjuszach.toFixed(2);
         }
     };
 });
